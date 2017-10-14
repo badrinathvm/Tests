@@ -29,7 +29,6 @@ class WatchTest: QuickSpec{
             }
             
             context("When Watch Model Data is available"){
-                
                 it("Model Type Class Validations on Watch Object "){
                     
                     //class check
@@ -40,14 +39,9 @@ class WatchTest: QuickSpec{
                     expect(self.watch).to(beAnInstanceOf(Watch.self))
                     expect(self.watch).toNot(beAnInstanceOf(Dummy.self))
                 }
-                
-                
-                
-                
             }
             
             context("Watch Name and Brand checks"){
-                
                 var brandInformation: Brand!
                     
                 beforeEach{
@@ -62,11 +56,8 @@ class WatchTest: QuickSpec{
                     
                     expect(brandInformation.name).to(equal("CAGARNY"))
                     expect(brandInformation.name).toNot(beNil())
-                    
                 }
             }
-            
         }
-        
     }
 }
