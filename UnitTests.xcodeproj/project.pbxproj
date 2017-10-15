@@ -12,6 +12,7 @@
 		E5705DC31F9293F1009F14D9 /* WatchTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5705DC21F9293F1009F14D9 /* WatchTest.swift */; };
 		E5705DC51F929691009F14D9 /* Watch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5705DC41F929691009F14D9 /* Watch.swift */; };
 		E5705DC71F929753009F14D9 /* WatchDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5705DC61F929753009F14D9 /* WatchDataHelper.swift */; };
+		E5DD760F1F92C88800427451 /* TestStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DD760E1F92C88800427451 /* TestStructure.swift */; };
 		E5FA8E761F7AD0D70058400B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FA8E751F7AD0D70058400B /* AppDelegate.swift */; };
 		E5FA8E7B1F7AD0D70058400B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5FA8E791F7AD0D70058400B /* Main.storyboard */; };
 		E5FA8E7E1F7AD0D70058400B /* UnitTests.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E5FA8E7C1F7AD0D70058400B /* UnitTests.xcdatamodeld */; };
@@ -54,6 +55,7 @@
 		E5705DC21F9293F1009F14D9 /* WatchTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchTest.swift; sourceTree = "<group>"; };
 		E5705DC41F929691009F14D9 /* Watch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Watch.swift; sourceTree = "<group>"; };
 		E5705DC61F929753009F14D9 /* WatchDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchDataHelper.swift; sourceTree = "<group>"; };
+		E5DD760E1F92C88800427451 /* TestStructure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestStructure.swift; sourceTree = "<group>"; };
 		E5FA8E721F7AD0D70058400B /* UnitTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5FA8E751F7AD0D70058400B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5FA8E7A1F7AD0D70058400B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 				E5FA8E8D1F7AD0D70058400B /* UnitTestsTests.swift */,
 				E5FA8E8F1F7AD0D70058400B /* Info.plist */,
 				E5705DC21F9293F1009F14D9 /* WatchTest.swift */,
+				E5DD760E1F92C88800427451 /* TestStructure.swift */,
 			);
 			path = UnitTestsTests;
 			sourceTree = "<group>";
@@ -494,6 +497,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5FA8E8E1F7AD0D70058400B /* UnitTestsTests.swift in Sources */,
+				E5DD760F1F92C88800427451 /* TestStructure.swift in Sources */,
 				E5705DC31F9293F1009F14D9 /* WatchTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
